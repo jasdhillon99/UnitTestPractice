@@ -40,3 +40,14 @@ TEST(PasswordTest, space_before_pass) {
   int actual = my_password.count_leading_characters(" ZZ");
   ASSERT_EQ(2, actual);
 }
+TEST(PasswordTest, space_inbetween_pass) {
+  Password my_password;
+  int actual = my_password.count_leading_characters("Z Z");
+  ASSERT_EQ(2, actual);
+}
+
+TEST(PasswordTest, unique_char){
+	Password my_passwordl
+	int actual = mypassword.unique_characters("aBa");
+	ASSERT_EQ(2, actual);
+}
