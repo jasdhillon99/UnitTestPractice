@@ -26,8 +26,12 @@ int Password::count_leading_characters(string phrase) {
 bool Password::has_mixed_case(string pass) { return false; }
 
 unsigned int unique_characters(string) {
-	for (i = 0; i < string.length; i++){
-
-	
+	for (int i = 0; i < string.length(); i++){
+		//we need to iterate thru string and mark if new char so if not seen before inc +1
+		// 2 pointer
+		// 1 st pointer doesn't move
+		// if != the value of 1st pointer inc by 1 
+		// start by 1
+		//return count;
 	}
 }
